@@ -1,0 +1,34 @@
+/* Pay page (step 3) */
+.row-fluid .pay_head {
+    color:#003767;
+    font-size:21px;
+    padding-bottom: 10px;
+}
+.row-fluid .pay_desc {
+    padding-bottom: 5px;
+}
+.row-fluid .pay_btn{
+
+}
+.row-fluid .pay_btn .price-input {
+    color: #003767;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.row-fluid .pay_btn .price-input span {
+    font-weight: normal;
+    color: red;
+}
+
+.row-fluid .pay_btn .price-input input {
+    width: 60px;
+}
+
+.row-fluid .pay_btn .price-desc {
+    color: #7ab800;
+}
+
+.well.well-small ul {
+    margin-bottom: 0;
+}

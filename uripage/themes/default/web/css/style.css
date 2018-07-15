@@ -1,0 +1,317 @@
+body {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border: 0;
+	font-family: 'PT Sans Caption', Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	color: #333;
+}
+ol, ul {
+    list-style: none;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+a.dotted {
+    border-bottom: 1px dotted;
+}
+a:hover.dotted {
+    text-decoration: none;
+}
+
+/* Header content */
+.masthead a:hover {
+    text-decoration:none;
+}
+
+/* Custom container */
+.container-narrow {
+    margin: 0 auto;
+    max-width: 700px;
+}
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+    margin: 30px 0;
+    text-align: center;
+}
+.jumbotron h1 {
+    font-family: "ProximaNova-Bold",Helvetica,Arial,sans-serif;
+    font-size: 4.5em;
+    line-height: 1;
+    margin: 0 0 .1em;
+    color: #7ab800;
+    margin: 10px 0px;
+}
+
+.jumbotron h2 {
+    font-family: "ProximaNova-Bold",Helvetica,Arial,sans-serif;
+    /*color: #7ab800;*/
+    color: #9e0b0f;
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: .5em;
+    padding: 0 .5em;
+}
+
+.jumbotron .yName {
+    font-family: "ProximaNova-Bold",Helvetica,Arial,sans-serif;
+    padding: 10px 0 10px;
+}
+
+.jumbotron .yName span {
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #003767;
+}
+
+.jumbotron .yName sup {
+    font-family: Tahoma, Helvetica, sans-serif;
+    /* color: #af3a3e; */
+    color: #7ab800;
+    font-size: 12px;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+#whoisfield::-webkit-input-placeholder { padding-top:3px; }
+#whoisfield:-moz-placeholder { padding-top:3px; }
+
+.jumbotron #whoisfield {
+    width:480px;
+    height:38px;
+    font-size:22px;
+}
+.jumbotron .btn.big {
+    padding-top:8px;
+    height:48px;
+    font-size:22px;
+}
+
+.jumbotron .img-youname {
+    border:0;
+}
+
+/* Supporting marketing content */
+.marketing {
+    margin: 60px 0;
+}
+.marketing p + h4 {
+    margin-top: 28px;
+}
+
+/* Step Navigation style */
+#stNav {
+    padding-bottom:15px;
+}
+#stepNavigator {
+    position: relative;
+    overflow: hidden;
+    height: 60px;
+    background: url("../img/step_bg.png") no-repeat;
+}
+#stepNavigator .current {
+    color: #000;
+    background: url("../img/step_arrow.png") no-repeat;
+}
+#stepNavigator li.current b {
+    color: #fff;
+    text-shadow: 0 1px 0 #6fad14;
+}
+#stepNavigator span {
+    font-size: 14px;
+    color: #000;
+    margin-left:-15px;
+}
+#stepNavigator li {
+    line-height: 24px;
+    width: 175px;
+    float: left;
+    height: 40px;
+    padding: 10px 25px;
+}
+#stepNavigator .flash {
+    opacity: 0;
+}
+#stepNavigator .off, #stepNavigator .off a, #stepNavigator .off span {
+    color: #a5acb2;
+}
+#stepNavigator .active a, #stepNavigator .active span, #stepNavigator .on a, #stepNavigator .on span {
+    color: #009cce;
+}
+#stepNavigator .active a {
+    text-decoration: none;
+}
+#stepNavigator .active b {
+    color: #000;
+}
+#stepNavigator .active a span {
+    border-bottom: 1px dotted;
+}
+#stepNavigator li b {
+    font-size: 23px;
+    font-weight: normal;
+    color: #969696;
+    text-shadow: 0 1px 0 #fff;
+    display: block;
+    margin-bottom: -6px;
+    margin-left: -15px;
+}
+.passive .on {
+    opacity: 0;
+}
+.passive .off {
+    opacity: 1;
+}
+
+/* Main Page text */
+.row-fluid .mainpage h4 {
+    color:#2d4d66;
+}
+.row-fluid .mainpage p {
+    padding-top:10px;
+}
+.row-fluid .mainpage ul {
+    padding-top:10px;
+}
+.row-fluid .mainpage strong {
+    color:#2d4d66;
+}
+
+/*Loading style*/
+.loading {
+    background: url("../img/loading.gif") center center no-repeat;
+    height:64px;
+    z-index: 999;
+}
+
+/* Message style */
+.alert.alert-block a {
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+.modal {
+    width: 620px;
+    margin-left: -310px;
+}
+
+/* Profile */
+#profile-form .control-label {
+    width: 180px;
+}
+#profile-form .controls {
+    margin-left: 200px;
+}
+#profile-form .controls input, #profile-form .controls textarea, #profile-form .controls .uneditable-input {
+    width: 330px;
+    font-size: 16px;
+}
+#profile-form .controls .input-append input {
+    width: 316px;
+    height:40px;
+}
+#profile-form .controls input {
+    height: 30px;
+}
+#profile-form .controls select {
+    width: 342px;
+    height: 40px;
+    font-size: 16px;
+}
+#profile-form .control-label {
+    margin-top: 5px;
+    font-size: 16px;
+}
+#profile-form .control-group.center {
+    text-align:center;
+}
+.profile-nav {
+    display: block;
+    padding: 5px 15px 15px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #999999;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+}
+span.required, span.help-inline .errorMessage {
+    color: #b94a48;
+}
+.controls.error input, .controls.error select, .controls.error textarea {
+	border-color: #b94a48;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+}
+.controls.error .checkbox, .controls.error .radio, .controls.error input, .controls.error select, .controls.error textarea {
+	color: #b94a48;
+}
+.controls.success input, .controls.success select, .controls.success textarea {
+	border-color: green;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+}
+.controls.success .checkbox, .controls.success .radio, .controls.success input, .controls.success select, .controls.success textarea {
+	color: green;
+}
+div.muted.small {
+    display: block;
+    padding: 0px 15px 15px 15px;
+    margin-top: -5px;
+    font-size:11px;
+}
+
+/* Footer */
+ul.pay_methods_list {
+    margin: 0px;
+    padding: 10px 0px 0px 0px;
+    list-style-type: none;
+    overflow: hidden;
+    zoom: 1;
+}
+ul.pay_methods_list li {
+    float: left;
+    padding: 0px 20px 0px 0px;
+}
+ul.pay_methods_list li a {
+    display: block;
+    background: url('../img/paymets.png') no-repeat;
+    height: 21px;
+    position: relative;
+    font: 10px Arial, DejaVu Sans, sans-serif;
+    color: #5a5e63 !important;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 37px;
+    overflow: hidden;
+}
+ul.pay_methods_list li.item_1 a {
+    background-position: 0px -210px;
+    width: 92px;
+}
+ul.pay_methods_list li.item_2 a {
+    background-position: 0px 0px;
+    width: 108px;
+}
+ul.pay_methods_list li.item_3 a {
+    background-position: -130px -140px;
+    width: 56px;
+}
+ul.pay_methods_list li.item_4 a {
+    background-position: -120px 0px;
+    width: 74px;
+}
+.footer .wegetpay {
+    color:#2d4d66;
+    /* font-size: 16px; */
+    border-bottom: 1px dotted;
+    width: 162px;
+}
